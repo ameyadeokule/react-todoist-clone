@@ -1,14 +1,18 @@
+import { FaPizzaSlice } from 'react-icons/fa'
+
 export const Header = () => {
 	return (
 		<header className='header' data-testid='header'>
 			<nav>
 				<div className='logo'>
-					<img src='/images/logo.png' alt='logo' />
+					<img src='/images/logo.png' alt='Todoist Logo' />
 				</div>
 				<div className='settings'>
 					<ul>
 						<li>+</li>
-						<li>-</li>
+						<li>
+							<FaPizzaSlice />
+						</li>
 					</ul>
 				</div>
 			</nav>
